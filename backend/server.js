@@ -1,6 +1,6 @@
-const express = require ("express")
-const cors = require("cors")
-const mysql = require("mysql")
+const express = import ("express")
+const cors = import("cors")
+const mysql = import("mysql")
 
 const app = express();
 app.use(express.json())
